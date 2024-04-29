@@ -2,7 +2,7 @@
 
 from datetime import datetime
 
-start_Apolla = datetime(1969, 7, 16, 14, 32)
-us_format = start_Apolla.strftime("%m/%d/%Y")
+start_apolla = datetime(1969, 7, 16, 14, 32)
+us_format = start_apolla.strftime("%m/%d/%Y")
 
 print(us_format)
