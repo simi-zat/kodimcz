@@ -3,7 +3,7 @@
 vykaz = []
 
 with open('vykaz.txt') as file:
-    for hodnota in file.read().split("\n"):
+    for hodnota in file.readlines():
         vykaz.append(int(hodnota))
 
 print(vykaz)

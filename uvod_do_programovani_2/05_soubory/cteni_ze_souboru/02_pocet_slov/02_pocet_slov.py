@@ -3,7 +3,7 @@
 celkovy_pocet_slov = 0
 
 with open('slohova_prace.txt') as file:
-    for radek in file.read().split("\n"):
+    for radek in file.readlines():
         pocet_slov = len(radek.split(" "))
         print(f"Pocet slov v radku je {pocet_slov}")
 

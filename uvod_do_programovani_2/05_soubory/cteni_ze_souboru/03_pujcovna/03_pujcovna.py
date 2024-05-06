@@ -3,7 +3,7 @@
 ujete_kilometry_celkem = 0
 
 with open('auta.txt') as file:
-    for auto in file.read().split("\n"):
+    for auto in file.readlines():
         informace = auto.split(" ")
 
         if "," in informace[1]:
